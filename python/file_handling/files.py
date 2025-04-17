@@ -12,8 +12,7 @@
 
 # "b" - Binary - Binary mode (e.g. images)
 
-f = open("test.txt", "w")
+# create new file
+newfile = open("test.txt", "x")
 
-f.write("Testing file\n")
-
-f.close()
+newfile.close()
