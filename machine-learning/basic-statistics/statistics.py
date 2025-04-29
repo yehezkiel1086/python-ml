@@ -1,15 +1,18 @@
 '''
-mean, median, mode
+Get the mean, median and mode of the following data:
+speed = [99,86,87,88,111,86,103,87,94,78,77,85,86] 
 '''
 #!/bin/python
 
 from scipy import stats
 import numpy
 
-speeds = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
 
-avg = numpy.mean(speeds)
-med = numpy.median(speeds)
-mode_v, mode_tt = stats.mode(speeds)
+speed_mean = numpy.mean(speed)
+speed_median = numpy.median(speed)
+speed_mode, speed_mode_count = stats.mode(speed)
 
-print(avg, med, mode_v)
+print(f"Mean: {speed_mean}")
+print(f"Median: {speed_median}")
+print(f"Mode: {speed_mode}, Mode_total: {speed_mode_count}")
