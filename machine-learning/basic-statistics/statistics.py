@@ -1,3 +1,6 @@
+'''
+mean, median, mode
+'''
 #!/bin/python
 
 from scipy import stats
