@@ -60,3 +60,6 @@ Documentaries for Machine Learning implementations using Python.
 
 ### Sources:
 - https://www.w3schools.com/python/
+- https://developers.google.com/machine-learning/crash-course/
+- https://www.freecodecamp.org/learn/machine-learning-with-python/
+- https://youtu.be/i_LwzRVP7bg?si=JYEGrc1QbpV7UkKi
